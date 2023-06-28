@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      // "module": "commonjs",
+      "strict": true,
+      "outDir": "dist",
+      "esModuleInterop": true
+    },
+    "include": [
+      "src/**/*"
+, "dist", "../web_analytics_tool_processing/src/services/influx.ts", "../web_analytics_tool_processing/src/services/getBrowser.ts"    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  
